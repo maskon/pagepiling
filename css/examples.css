@@ -546,7 +546,10 @@ body {
 
 @media (max-width: 567px) {
     #section1{
-        background-position: -550px;
+        background-position: -400px;
+    }
+    #section3{
+        background-position: center;
     }
     .title-1 {
         font-size: 28px;
