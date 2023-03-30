@@ -19,7 +19,7 @@ $(document).ready(function() {
      $("#burger").on("click", function(event) {
         event.preventDefault();
 
-        $("#menu").toggleClass("show");
+        $("#menu, #burger").toggleClass("show");
         $("body").toggleClass("no-scroll");
     });
 
