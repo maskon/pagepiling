@@ -412,22 +412,16 @@ body {
     z-index: 100;
 }
 
+.burger.show .burger__item {
+    
+}
 .burger.show .burger__item:before {
-    transform: translate(100px);
-    transition-duration: .5s;
+    opacity: 0;
 }
 .burger.show .burger__item:after {
-    transform: translate(-1000px);
-    transition-duration: .5s;
+    opacity: 0;
 }
-.burger .burger__item:before {
-    transform: translate(0px);
-    transition-duration: .5s;
-}
-.burger .burger__item:after {
-    transform: translate(0px);
-    transition-duration: .5s;
-}
+
 
 .burger__item {
     display: block;
@@ -495,11 +489,11 @@ body {
         flex-direction: column;
         top: 0;
         right: 0;
-        width: 83%;
+        width: 100%;
         font-size: 30px;
         font-weight: 700;
         text-align: center;
-        padding: 70px 10px 20px 10px;
+        padding: 70px 0px 20px 0px;
     }
     .title {
         font-size: 40px;
